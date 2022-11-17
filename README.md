@@ -1,15 +1,16 @@
 # Score Tracker
 
-The [Score Tracker](https://www.enfocus.com/en/appstore/product/score-tracker) app follows the live matches on the [Statorium](https://www.statorium.com/) site. What leagues and seasons are being watched depends on the API key.
+The [Score Tracker](https://www.enfocus.com/en/appstore/product/score-tracker) app follows the live matches on the [Statorium](https://www.statorium.com/) site.  
+What leagues and seasons are being watched depends on the API key.
 
 It is available on the [Enfocus Appstore](https://www.enfocus.com/en/appstore/overview).
 
 Are you a big [Enfocus Switch](https://www.enfocus.com/en/switch) fan and a football fan at the same time?
 
-This app is for you! It will **track** the live matches results automatically.
+This app is for you! It will **track** the live matches results automatically.  
 After each match, a Switch job will be created with private data and a dataset.
 
-The **private data** will include the **names** of the two teams, the url of their **flags**, and their **results**.
+The **private data** will include the **names** of the two teams, the url of their **flags**, and their **results**.  
 The **dataset** will include more **details**, like who scored at what time, the number of yellow cards, red cards, etc.
 
 Using this metadata, you can filter the matches you are interested in.
