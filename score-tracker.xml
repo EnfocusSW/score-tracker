@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+    <ElementFields>
+        <Name Type="string" Editor="hide">scoretracker</Name>
+        <DisplayName Type="string" Editor="hide">Score Tracker</DisplayName>
+        <Version Type="number" Editor="hide">1</Version>
+        <Keywords Type="string" Editor="hide">score switch world cup football</Keywords>
+        <Tooltip Type="string" Editor="hide">This app follows the live matches on the Statorium site. What leagues and seasons are being watched depends on the API key.</Tooltip>
+        <IncomingConnections Editor="hide">No</IncomingConnections>
+        <OutgoingConnections DetailedInfo="" Editor="hide" RequireAtLeastOne="Yes">One</OutgoingConnections>
+        <ConnectionType Editor="hide">Move</ConnectionType>
+        <FunctionsNodeJSScript Editor="hide">timerFired;getLibraryForProperty</FunctionsNodeJSScript>
+        <ExecutionMode Editor="hide">Serialized</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Apps</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide"/>
+        <DispositionInElementPane Type="number" Editor="hide"/>
+        <Description Type="string" Editor="hide"/>
+        <Compatibility Type="string" Editor="hide"/>
+        <SupportInfo Type="string" Editor="hide"/>
+        <AppDiscovery Type="string" Editor="hide"/>
+        <FlowUpgradeWarning Type="string" Editor="hide"/>
+        <UpgradeMaximumVersion Type="number" Editor="hide"/>
+        <Connections Type="string" Editor="hide"/>
+        <SwitchModule Type="string" Editor="hide"/>
+        <ObsoleteProperties Type="string" Editor="hide"/>
+        <ObsoleteConnectionProperties Type="string" Editor="hide"/>
+        <APIKey Tooltip="Specify the API key from Statorium. The default API key only works for the FIFA World Cup Qatar 2022." Type="string" UserDefined="true" Subtype="default" Validation="Standard" LocalizedTagName="Statorium API key" DetailedInfo="" Editor="inline;default;automatic" Default="Default">Default</APIKey>
+        <LeagueSeasonName SelectFromLibMes="Choose a league/season combination" Dependency="APIKey" Tooltip="Specify the name of the league and the season as defined in Statorium. The two should be separated by a space, hypen, space." DependencyCondition="Does not match" Type="string" UserDefined="true" Subtype="inline" Validation="Standard" LocalizedTagName="League and season name" Dependencyvalue="Default|Automatic" DetailedInfo="" Editor="inline;scriptexp;askplugin" Default=""/>
+        <PrivateDataKey Tooltip="The following private data is being added to the job:&#xa;&lt;key>.HomeTeam&#xa;&lt;key>.AwayTeam&#xa;&lt;key>.HomeScore&#xa;&lt;key>.AwayScore&#xa;&lt;key>.HomeFlag&#xa;&lt;key>.AwayFlag" Type="string" UserDefined="true" Subtype="inline" Validation="Standard" LocalizedTagName="Private data key" DetailedInfo="" Editor="inline" Default="ScoreTracker">ScoreTracker</PrivateDataKey>
+        <DatasetName Tooltip="The name of the JSON dataset with all the details of the match." Type="string" UserDefined="true" Subtype="inline" Validation="Standard" LocalizedTagName="Dataset name" DetailedInfo="" Editor="inline" Default="ScoreTracker">ScoreTracker</DatasetName>
+    </ElementFields>
+    <ConnectionFields/>
+    <ExtraProperties/>
+</Object>
