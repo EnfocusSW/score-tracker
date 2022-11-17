@@ -19,6 +19,6 @@ You can use this job as a trigger to send an email. We provide a mail template, 
 
 Or even better, use your **imagination** to celebrate the matches or the results of your favorite team in a crazy way. You can create a poster and print it automatically, or create a [Switch script](https://www.enfocus.com/en/switch/modules/scripting-module) using some [npm module](https://www.npmjs.com/) to send a tweet, fire up smart lights, start a playlist or celebration song, … and let the party begin!
 
-Share your feedback and great ideas and projects at marketing@enfocus.com
+Share your feedback and great ideas and projects at [marketing@enfocus.com](mailto:marketing@enfocus.com?subject=Score Tracker)
 
 [Enfocus Switch](https://www.enfocus.com/en/switch), we connect anything with anything!
